@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encyclopédia</title>
+
+    <!-- Je mets un logo à la page -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <!-- J'introduis de nouvelles polices d'écritures -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=berkshire-swash:400" rel="stylesheet" />
+    <link href="https://fonts.bunny.net/css?family=architects-daughter:400" rel="stylesheet" />
+
+    <!-- Je lis mon fichier css pour le style -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <!-- Le logo du site -->
+            <img class="img__logo" src="../img/Logo.png" alt="Dessin d'un cerf nature">
+        </div>
+        <div class="header__pst">
+            <h1 class="header__pst__title">Bienvenue sur Encyclopédia !</h1>
+            <p class="header__pst__intro">L'encyclopédie qui répertorie les animaux et les plantes.</p>
+        </div>
+        <div class="header__setting">
+            <button id="theme-switch">
+                <img id="theme-switch-img" src="../img/logo_soleil.png" alt="image de soleil">
+            </button>
+        </div>
+    </header>
+    <main class="container">
+        <div></div>
+        <div class="container__fiche"></div>
+    </main>
+    <footer class="footer"></footer>
+
+    <!-- Je lie les fichiers javascript -->
+    <script src="../js/theme.js"></script>
+</body>
+
+</html>

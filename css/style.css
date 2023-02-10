@@ -1,0 +1,80 @@
+body {
+    font-family: 'Architects Daughter', handwriting;
+    width: 100hv;
+    background-color: beige;
+    height: 100hv;
+    transition: background-color .3s;
+}
+
+.header {
+    background-color: #50757B;
+    padding: 0.8em;
+    display: flex;  
+}
+
+.header__logo {
+    width: 20%;
+    text-align: center;
+}
+
+.img__logo {
+    width: 5em;
+}
+
+.header__pst {
+    width: 60%;
+    text-align: center;
+}
+
+.header__pst__title {
+    font-family: 'Berkshire Swash', écriture manuscrite ; 
+    font-size: 3em;
+    color: #d1c1a3;
+    margin: 0;
+    letter-spacing: 0.02em;
+
+}
+
+.header__pst__intro {
+    font-size: 1.2em;
+    color: #b3ada3;
+    margin: 0;
+}
+
+#theme-switch {
+    border-radius: 50%;
+    border: 0px;
+    background-color: #50757B;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.header__setting {
+    display: flex;
+    justify-content: end;
+    width: 20%;
+    text-align: end;
+}
+
+#theme-switch-img {
+    width: 2em;
+}
+
+/* container */
+.container__fiche {
+    height: 75%;
+    width: 80%;
+}
+
+/* dark mode */
+.theme-dark {
+    color: white;
+    background-color: #101b08;
+    --border-normal: 1px solid rgba(255, 255, 255, .2);
+    --color-bg: rgb(15, 15, 15);
+    --color-opacity: rgba(255, 255, 255, .1);
+  }
