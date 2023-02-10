@@ -3,7 +3,7 @@ body {
     width: 100hv;
     background-color: beige;
     height: 100hv;
-    transition: background-color .3s;
+    transition :background-color 1s;
 }
 
 .header {
@@ -41,7 +41,7 @@ body {
     margin: 0;
 }
 
-#theme-switch {
+#theme-switch-button {
     border-radius: 50%;
     border: 0px;
     background-color: #50757B;
@@ -78,3 +78,4 @@ body {
     --color-bg: rgb(15, 15, 15);
     --color-opacity: rgba(255, 255, 255, .1);
   }
+
