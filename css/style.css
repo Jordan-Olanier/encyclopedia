@@ -146,6 +146,10 @@ body {
     list-style: none;
 }
 
+.bloc__fiche__explication li {
+    margin-top: 1%;
+}
+
 /* dark mode */
 .theme-dark {
     color: white;
