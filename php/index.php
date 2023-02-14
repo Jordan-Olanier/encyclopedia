@@ -16,6 +16,9 @@
     <!-- Je lis mon fichier css pour le style -->
     <link rel="stylesheet" href="../css/style.css">
 
+    <!-- Je charge le fichier data.php -->
+    <?php include "Templates/data.php"; ?>
+
 </head>
 
 <body>
@@ -44,11 +47,13 @@
                 <div class="bloc__fiche__img">
                     <img id="img-fiche" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Tamarin-lion_%28Biodome%29.jpg" alt="">
                 </div>
-                <div class="bloc__fiche__explication">
-                    <h4>Tamarin lion doré</h4>
-                    <h6>Leontopithecus rosalia</h6>
-                    <ul>
-                        <li>
+
+                    <?php
+
+                    include "fiches.php";
+                    
+                    ?>
+                        <!-- <li>
                             <span class="bloc__explication__title">Classe</span>
                             <span></span>
                         </li>
@@ -71,9 +76,8 @@
                         <li>
                             <span class="bloc__explication__title">Poids adulte</span>
                             <span></span>
-                        </li>
-                    </ul>
-                </div>
+                        </li> -->
+
                 <p class="fiche">ICI ce trouvera les fiches détaillées</p>
             </div>
         </div>
